@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "Query3" table = "obtenerCanton">
+      
+      <meta attribute = "class-description">
+         This class contains the employee detail. 
+      </meta>
+      
+      <property name = "Partido" column = "Partido" type = "string"/>
+      <property name = "Entregables" column = "Entregables" type = "int"/>
+      <property name = "Panton" column = "Canton" type = "string"/>
+      
+   </class>
+</hibernate-mapping>
